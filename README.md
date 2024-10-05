@@ -1,1 +1,1 @@
-[PROJECT PREVIEW]([https://promodoro-app-nine.vercel.app/])
+[PROJECT PREVIRW](docs/CONTRIBUTING.md](https://promodoro-app-nine.vercel.app/)
