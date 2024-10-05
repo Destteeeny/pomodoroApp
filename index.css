@@ -5,7 +5,8 @@
 
 body {
     font-family: 'Satoshi', sans-serif;
-    background-image: linear-gradient(to bottom, rgb(10, 10, 10),rgb(41, 41, 41))
+    background-image: linear-gradient(to bottom, rgb(10, 10, 10),rgb(41, 41, 41));
+    transition: background 1s ease;
 }
 
  
@@ -50,11 +51,40 @@ body {
 
 .container-btns ul li select {
     font-family: 'Satoshi', sans-serif;
-    font-weight: 500;
+    font-weight: 600;
     width: 150px;
     padding: 5px;
     border-radius: 5px;
+    background-color: transparent;
+    border-inline: none;
+    color: #f3f3f3;
+    border: 0;
 }
+
+select option {
+    background: rgba(255, 255, 255, 0.205);
+    color: white;
+}
+
+#themes {
+    background: rgba(7, 7, 7, 0.466);
+    color: white;
+    border: none;
+    padding: 10px; 
+    border-radius: 4px; 
+    cursor: pointer;
+}
+
+#themes option {
+    background: rgba(7, 7, 7, 0.205);
+    color: white;
+}
+
+#themes option:hover {
+    background: rgba(255, 255, 255, 0.096);
+}
+
+
 
 .container-main {
     display: flex;
